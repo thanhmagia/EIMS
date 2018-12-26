@@ -36,6 +36,8 @@
         "form": {
             "username": "Tên tài khoản",
             "username.placeholder": "Nhập tên tài khoản của bạn",
+            "currentpassword": "Mật khẩu hiện tại",
+            "currentpassword.placeholder": "Nhập mật khẩu hiện tại",
             "newpassword": "Mật khẩu mới",
             "newpassword.placeholder": "Nhập mật khẩu mới",
             "confirmpassword": "Xác nhận mật khẩu mới",
@@ -129,5 +131,8 @@
         "idexists": "Thêm mới {{ entityName }} không được trùng với định danh đã tồn tại",
         "idnull": "Invalid ID"
     },
-    "footer": "Đây là chân trang của bạn"
+    "footer": {
+        "content-left": "Công ty của bạn",
+        "content-right": "©Bản quyền 2019"
+    }
 }

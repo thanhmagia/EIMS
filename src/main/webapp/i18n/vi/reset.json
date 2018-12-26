@@ -13,7 +13,7 @@
         },
         "finish" : {
             "title": "Đặt lại mật khẩu",
-            "form": {
+            "form": {   
                 "button": "Kiểm tra mật khẩu mới"
             },
             "messages": {

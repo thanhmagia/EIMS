@@ -83,6 +83,24 @@ Generic styles
 
 .footer {
     border-top: 1px solid rgba(0, 0, 0, 0.125);
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    P {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    .left {
+        float: left;
+    }
+    .right {
+        float: right;
+    }
 }
 
 /* ==========================================================================
