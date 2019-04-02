@@ -29,8 +29,6 @@ export class AuthExpiredInterceptor implements HttpInterceptor {
 
                             const authServer: AuthServerProvider = this.injector.get(AuthServerProvider);
                             authServer.logout();
-                            const loginModalService: LoginModalService = this.injector.get(LoginModalService);
-                            loginModalService.open();
                         }
                     }
                 }

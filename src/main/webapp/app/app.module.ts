@@ -18,6 +18,7 @@ import { EimsEntityModule } from './entities/entity.module';
 import { StateStorageService } from 'app/core/auth/state-storage.service';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ActiveMenuDirective, ErrorComponent } from './layouts';
+import { InvoicePrefixComponent } from './invoice/invoice-prefix/invoice-prefix.component';
 
 @NgModule({
     imports: [
@@ -31,7 +32,7 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
         EimsEntityModule
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
-    declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent],
+    declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent, InvoicePrefixComponent],
     providers: [
         {
             provide: HTTP_INTERCEPTORS,

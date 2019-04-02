@@ -10,6 +10,8 @@ import {
     settingsRoute
 } from './';
 
+import { loginRoute } from 'app/shared';
+
 const ACCOUNT_ROUTES = [
     activateRoute,
     passwordRoute,
@@ -17,7 +19,8 @@ const ACCOUNT_ROUTES = [
     passwordResetInitRoute,
     registerRoute,
     sessionsRoute,
-    settingsRoute
+    settingsRoute,
+    loginRoute
 ];
 
 export const accountState: Routes = [
